@@ -1,0 +1,21 @@
+Full Name: Jasper Wu
+Student ID: 2339715
+Chapman email: jaswu@chapman.edu
+Course number and section: 350-01
+Assignment Number: 3
+
+1.) List of source files submitted
+  a. main.cpp
+  b. GenStack.cpp
+  c. Makefile
+  d. fileio.h
+  e. fileio.cpp
+
+2.) Description of any known compile/runtime errors, or bugs
+  a. No known compile/runtime errors, or bugs
+
+3.) References used to complete the assignment
+- reference on how to create custom exception
+  https://stackoverflow.com/questions/41753358/creating-custom-exceptions-in-c/41753430
+- reference on how to use template for class
+  http://www.cplusplus.com/doc/oldtutorial/templates/
