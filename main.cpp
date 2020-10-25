@@ -31,7 +31,10 @@ int main(int argc, char** argv) {
   }
   userInput = argv[1];
 
-  //
+  // main loop to read the file and check the syntax
+  // use generic stack to store delimeter and check
+  // exit the program if syntax error is found otherwise
+  // ask user for another file to check 
   do {
     lineNumber = 0;
     foundError = false;
@@ -117,7 +120,7 @@ int main(int argc, char** argv) {
     // delete opened stack and files
     delete stack;
     delete files;
-    
+
   } while (checkNextFile);
 
   return 0;
